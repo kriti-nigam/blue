@@ -5,10 +5,7 @@
       flex-direction: column;
       overflow: hidden;
       align-items: center;
-      /*padding: 31px 22px 175px 80px; */
-      width: 100vw; /* Full screen width */
-      padding: 31px 0 175px; /* Remove default padding */
-      margin: 0; /* Remove default margin */
+      padding: 31px 22px 175px 80px;
     }
     
     .nav-wrapper {
@@ -20,23 +17,14 @@
       color: #03045e;
       justify-content: space-between;
       align-items: center;
-      padding: 10 20px:
     }
-
-    .logo {
-        margin-left: 0; /* Aligns the "home" link to the left edge */
-    .nav-links a,
-    .logo {
-      text-decoration: none; /* Removes underline */
-      color: #03045e; /* Ensures consistent text color */
+    
+    .nav-links {
+      display: flex;
+      gap: 40px;
       font: 400 18px Poppins, sans-serif;
-}
-
-.logo {
-  font-size: 24px;
-  font-weight: 600;
-}
-   
+    }
+    
     .hero-section {
       display: flex;
       gap: 100px;
@@ -253,14 +241,14 @@
     
     <section class="portfolio-container">
       <header class="nav-wrapper">
-   
+        
         <a href="#home" class="logo">home</a>
         <nav class="nav-links">
           <a href="#about">about</a>
           <a href="#work">work</a>
           <a href="#interests">interests</a>
         </nav>
-        <!--img src="https://cdn.builder.io/api/v1/image/assets/TEMP/eb67b14c142bf9be6426b8a329d0c5af32f719ae40d1c1ef38f3fb86233e9c38?apiKey=f874be36341a44ceb88adb1a823a3f35&" alt="" class="theme-toggle" loading="lazy"/-->
+    
       </header>
     
       <section class="hero-section">
